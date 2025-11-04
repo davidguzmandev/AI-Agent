@@ -1,7 +1,7 @@
 import { type Request, type Response } from "express";
 import { ChatSchema, type ChatBody, type ChatResponse } from "../types/chat";
 import { type ApiResult, type Empty } from "../types/http";
-import { processChat } from "../services/chat.service";
+import { processChat } from "@/services/chat.service";
 
 export const handleChat = async (
   req: Request<Empty, ApiResult<ChatResponse>, ChatBody>,

@@ -1,5 +1,5 @@
-import pool from "../db";
-import { type Conversation } from "../types/domain";
+import pool from "@/db";
+import { type Conversation } from "@/types/domain";
 
 export async function insertConversation(): Promise<Conversation> {
     const query = `

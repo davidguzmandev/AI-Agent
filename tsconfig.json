@@ -7,7 +7,12 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src"]
 }

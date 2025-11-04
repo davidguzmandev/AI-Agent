@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { handleChat } from "../controllers/chat.controller";
-import { type ChatResponse, type ChatBody } from "../types/chat";
-import { type ApiResult, type Empty } from "../types/http";
+import { handleChat } from "@/controllers/chat.controller";
+import { type ChatResponse, type ChatBody } from "@/types/chat";
+import { type ApiResult, type Empty } from "@/types/http";
 
 const router = Router();
 

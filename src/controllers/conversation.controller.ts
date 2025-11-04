@@ -1,7 +1,7 @@
 import { type Request, type Response } from "express";
-import { insertConversation } from "../services/conversation.service";
-import { type Conversation } from "../types/domain";
-import { type ApiResult, type Empty } from "../types/http";
+import { insertConversation } from "@/services/conversation.service";
+import { type Conversation } from "@/types/domain";
+import { type ApiResult, type Empty } from "@/types/http";
 
 export const createConversation = async (
   _req: Request<Empty, ApiResult<Conversation>, Empty>,

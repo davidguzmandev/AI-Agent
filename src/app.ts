@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 import dotenv from "dotenv";
-import conversationRouter from "./routes/conversation.routes";
-import chatRouter from "./routes/chat.routes";
+import conversationRouter from "@/routes/conversation.routes";
+import chatRouter from "@/routes/chat.routes";
 
 dotenv.config();
 
